@@ -64,5 +64,21 @@ export default {
         content: "Det tredje prosjektet mitt var å få ein liten tello drone til å gjenkjenne piler og følge de ved bruk av OpenCV2 som bildegjenkjennings rammeverk"
       }
     ]
+  },
+  termin2: {
+    prosjekter: [
+      {
+        title: "Pokemon klone i Python",
+        content: "Det første prosjektet eg lagte i andre termin var ein Pokemon klone i Python hvor spilleren beveger seg på ein grid som i pokemon men combat skjer i konsollen"
+      },
+      {
+        title: "CyberSikkerhet med Tryhackme",
+        content: "Det andre prosjektet mitt var å lære meg cybersikkerhet og hacking, eg lerte meg kossen man tenker som ein hacker og kan forsvare seg mot angrep",
+      },
+      {
+        title: "Utplassering hos Bouvet",
+        content: "I den tredje oppgavå mi så jobbet eg hos Bouvet for å finne ut kossen det er å faktisk jobbe hos ein IT-bedrift"
+      }
+    ]
   }
 };
