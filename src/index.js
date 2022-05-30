@@ -9,6 +9,7 @@ import {
   Route,
 } from "react-router-dom";
 import Contact from './pages/Contact';
+import Projects from './pages/Projects';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -16,6 +17,7 @@ ReactDOM.render(
       <Routes>
         <Route path="/" element={<App />} />
         <Route path='/kontakt' element={<Contact />} />
+        <Route path='/prosjekter' element={<Projects />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,

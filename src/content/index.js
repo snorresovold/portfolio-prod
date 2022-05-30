@@ -18,7 +18,7 @@ export default {
       'Koder. ',
       2000
     ],
-    btnText: 'Mine prosjekter',
+    btnText: 'Hva kan jeg?',
   },
 
   stack: {
