@@ -46,7 +46,7 @@ export default {
   contact: {
     title: 'Kontakt meg',
     email: "snorresovold@gmail.com",
-    phone: "47+ 457 60 560",
+    phone: "+47 457 60 560",
     address: "Skjold, Rogaland, Norge"
     },
   termin1: {
