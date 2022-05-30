@@ -2,7 +2,7 @@ import React from 'react'
 
 function ProjectCard({title, content}) {
   return (
-        <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+        <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 m-4 dark:border-gray-700">
             <a href="#">
                 <img class="rounded-t-lg" src="/docs/images/blog/image-1.jpg" alt="" />
             </a>
