@@ -49,4 +49,16 @@ export default {
     phone: "47+ 457 60 560",
     address: "Skjold, Rogaland, Norge"
     },
+  termin1: {
+    prosjekter: [
+      {
+        title: "Chatbrett med django",
+        content: "Det første prosjektet mitt på haugaland vgs var et chatbrett der eg brukte Django som backend"
+      },
+      {
+        title: "Drone og bildegjenkjenning",
+        content: "Det andre prosjektet mitt var å få ein liten tello drone til å gjenkjenne piler og følge de ved bruk av OpenCV2 som bildegjenkjennings rammeverk"
+      }
+    ]
+  }
 };
