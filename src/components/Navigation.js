@@ -16,9 +16,9 @@ export default function Navigation() {
         <div>
           {content.nav.links.map((link, index) => {
             return (
-              <span key={index} className="text-xl mr-4">
+              <a href={link.to} key={index} className="text-xl mr-4">
                 {link.text}
-              </span>
+              </a>
             );
           })}
         </div>

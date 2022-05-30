@@ -2,8 +2,8 @@ export default {
   nav: {
     logo: 'SS',
     links: [
-      { text: 'Work', to: 'mywork' },
-      { text: 'Contact', to: 'mycontact' },
+      { text: 'Prosjekter', to: 'prosjekter' },
+      { text: 'Kontakt', to: 'kontakt' },
     ],
   },
   header: {
@@ -11,36 +11,42 @@ export default {
       '/assets/snorre.png',
     text: ['Hallo!', "Ege er Snorre Søvold.", 'Eg er '],
     typical: [
-      'web developer. 🖥',
+      'IT elev. 💻',
       2000,
       'Youtuber. 📹',
       2000,
-      'Mobile Developer',
-      2000,
+      'Koder. ',
+      2000
     ],
-    btnText: 'Discover More',
+    btnText: 'Mine prosjekter',
   },
 
   stack: {
-    title: 'Stack',
+    title: 'Teknologioer eg kan',
     tech: [
       {
-        img: process.env.PUBLIC_URL + '/assets/mongo.png',
-        alt: 'mongodb',
+        img: process.env.PUBLIC_URL + '/assets/django.png',
+        alt: 'Django',
       },
       {
         img: process.env.PUBLIC_URL + '/logo512.png',
-        alt: 'react',
+        alt: 'React',
       },
       {
-        img: process.env.PUBLIC_URL + '/assets/express.png',
-        alt: 'express',
+        img: process.env.PUBLIC_URL + '/assets/python.png',
+        alt: 'Python',
       },
       {
-        img: process.env.PUBLIC_URL + '/assets/node.png',
-        alt: 'node',
+        img: process.env.PUBLIC_URL + '/assets/js.png',
+        alt: 'Javascript',
       },
     ],
-    desc: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only`,
+    desc: `De programmerings språkene eg kan best er Python og Javascript. Selv om eg har erfaring og er open til å lære andre språk som for eksempel Golang. Den tech stacken eg bruker mest for web prosjekter er Django for backend på grunn av rask og effektiv REST-API og Javascript med React til frontend fordi det er raskt og eg liker React bedre enn andre Frontend rammeverk.`,
   },
+  contact: {
+    title: 'Kontakt meg',
+    email: "snorresovold@gmail.com",
+    phone: "47+ 457 60 560",
+    address: "Skjold, Rogaland, Norge"
+    },
 };

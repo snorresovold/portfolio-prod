@@ -3,10 +3,21 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import './styles/main.css';
 import * as serviceWorker from './serviceWorker';
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
+import Contact from './pages/Contact';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<App />} />
+        <Route path='/kontakt' element={<Contact />} />
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
