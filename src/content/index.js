@@ -52,14 +52,17 @@ export default {
   termin1: {
     prosjekter: [
       {
+        id: 0,
         title: "Chatbrett med django",
-        content: "Det første prosjektet mitt på haugaland vgs var et chatbrett der eg brukte Django som backend"
+        content: "Det første prosjektet mitt på Haugaland vgs var et chatbrett der eg brukte Django som backend"
       },
       {
+        id: 1,
         title: "Video redigering",
         content: "Det andre prosjektet mitt var å lære meg superhelt effekter og bli bedre på videoredigering i premiere pro",
       },
       {
+        id: 2,
         title: "Drone og bildegjenkjenning",
         content: "Det tredje prosjektet mitt var å få ein liten tello drone til å gjenkjenne piler og følge de ved bruk av OpenCV2 som bildegjenkjennings rammeverk"
       }
@@ -68,14 +71,17 @@ export default {
   termin2: {
     prosjekter: [
       {
+        id: 3,
         title: "Pokemon klone i Python",
         content: "Det første prosjektet eg lagte i andre termin var ein Pokemon klone i Python hvor spilleren beveger seg på ein grid som i pokemon men combat skjer i konsollen"
       },
       {
+        id: 4,
         title: "CyberSikkerhet med Tryhackme",
         content: "Det andre prosjektet mitt var å lære meg cybersikkerhet og hacking, eg lerte meg kossen man tenker som ein hacker og kan forsvare seg mot angrep",
       },
       {
+        id: 5,
         title: "Utplassering hos Bouvet",
         content: "I den tredje oppgavå mi så jobbet eg hos Bouvet for å finne ut kossen det er å faktisk jobbe hos ein IT-bedrift"
       }

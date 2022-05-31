@@ -10,6 +10,7 @@ import {
 } from "react-router-dom";
 import Contact from './pages/Contact';
 import Projects from './pages/Projects';
+import ProjectDetails from './components/ProjectDetails';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -18,6 +19,7 @@ ReactDOM.render(
         <Route path="/" element={<App />} />
         <Route path='/kontakt' element={<Contact />} />
         <Route path='/prosjekter' element={<Projects />} />
+        <Route path='prosjekter/:iD ' element={<ProjectDetails />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,
