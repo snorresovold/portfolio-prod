@@ -13,16 +13,15 @@ import Projects from './pages/Projects';
 
 import ProjectDetails1 from "./components/ProjectDetails1"
 import ProjectDetails2 from "./components/ProjectDetails2"
-import ProjectDetails3 from "./components/ProjectDetails2"
-import ProjectDetails4 from "./components/ProjectDetails2"
-import ProjectDetails5 from "./components/ProjectDetails2"
-import ProjectDetails6 from "./components/ProjectDetails2"
-
+import ProjectDetails3 from "./components/ProjectDetails3"
+import ProjectDetails4 from "./components/ProjectDetails4"
+import ProjectDetails5 from "./components/ProjectDetails5"
+import ProjectDetails6 from "./components/ProjectDetails6"
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
         <Route path='/kontakt' element={<Contact />} />

@@ -13,42 +13,37 @@ function ProjectDetails3() {
             <div class="grid grid-cols-2 gap-4 md:grid-cols-1">
                 <div class="aspect-w-1 aspect-h-1">
                 <img
-                    alt="Mobile Phone Stand"
                     class="object-cover rounded-xl"
-                    src="https://images.unsplash.com/photo-1627844541143-a561a1a9b72a"
+                    src="/assets/proj3-4.png"
                 />
                 </div>
 
                 <div class="grid grid-cols-2 gap-4 lg:mt-4">
                 <div class="aspect-w-1 aspect-h-1">
                     <img
-                    alt="Mobile Phone Stand"
                     class="object-cover rounded-xl"
-                    src="https://images.unsplash.com/photo-1627844541143-a561a1a9b72a"
+                    src="/assets/proj3-1.png"
                     />
                 </div>
 
                 <div class="aspect-w-1 aspect-h-1">
                     <img
-                    alt="Mobile Phone Stand"
                     class="object-cover rounded-xl"
-                    src="https://images.unsplash.com/photo-1627844541143-a561a1a9b72a"
+                    src="/assets/proj3-5.png"
                     />
                 </div>
 
                 <div class="aspect-w-1 aspect-h-1">
                     <img
-                    alt="Mobile Phone Stand"
                     class="object-cover rounded-xl"
-                    src="https://images.unsplash.com/photo-1627844541143-a561a1a9b72a"
+                    src="/assets/proj3-3.png"
                     />
                 </div>
 
                 <div class="aspect-w-1 aspect-h-1">
                     <img
-                    alt="Mobile Phone Stand"
                     class="object-cover rounded-xl"
-                    src="https://images.unsplash.com/photo-1627844541143-a561a1a9b72a"
+                    src="/assets/proj3-2.png"
                     />
                 </div>
                 </div>
@@ -58,7 +53,7 @@ function ProjectDetails3() {
                 <div class="flex justify-between mt-8">
                 <div class="max-w-[35ch]">
                     <h1 class="text-2xl font-bold">
-                        Chatbrett med django
+                        Drone med bildegjenkjenning
                     </h1>
                 </div>
 
@@ -67,7 +62,7 @@ function ProjectDetails3() {
                     <div>
                     <div class="prose max-w-none group-open:hidden">
                         <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa veniam dicta beatae eos ex error culpa delectus rem tenetur, architecto quam nesciunt, dolor veritatis nisi minus inventore, rerum at recusandae?
+                            Først så lerte eg meg å få tello dronen til å fly
                         </p>
                     </div>
 
@@ -75,11 +70,11 @@ function ProjectDetails3() {
 
                 <div class="pb-6 prose max-w-none">
                     <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa veniam dicta beatae eos ex error culpa delectus rem tenetur, architecto quam nesciunt, dolor veritatis nisi minus inventore, rerum at recusandae?
+                        Etter dronen flydde så fikk eg dronen til å ta et bilde og sende bildet til ein klient som kan processe det
                     </p>
 
                     <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat nam sapiente nobis ea veritatis error consequatur nisi exercitationem iure laudantium culpa, animi temporibus non! Maxime et quisquam amet. A, deserunt!
+                        når bildet blir processed så bruker klienten OpenCV2 og python til å leite etter piler i bildet
                     </p>
                 </div>
 

@@ -87,4 +87,23 @@ export default {
       }
     ]
   },
+  proj2: {
+    images:[
+      {
+        img: process.env.PUBLIC_URL + 'assets/proj2-1'
+      },
+      {
+        img: process.env.PUBLIC_URL + 'assets/proj2-2'
+      },
+      {
+        img: process.env.PUBLIC_URL + 'assets/proj2-3'
+      },
+      {
+        img: process.env.PUBLIC_URL + 'assets/proj2-4'
+      },
+      {
+        img: process.env.PUBLIC_URL + 'assets/proj2-5'
+      }
+    ]
+  }
 };
