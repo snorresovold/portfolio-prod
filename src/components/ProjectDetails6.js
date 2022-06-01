@@ -13,42 +13,37 @@ function ProjectDetails6() {
             <div class="grid grid-cols-2 gap-4 md:grid-cols-1">
                 <div class="aspect-w-1 aspect-h-1">
                 <img
-                    alt="Mobile Phone Stand"
                     class="object-cover rounded-xl"
-                    src="https://images.unsplash.com/photo-1627844541143-a561a1a9b72a"
+                    src="/assets/proj6-1.jpeg"
                 />
                 </div>
 
                 <div class="grid grid-cols-2 gap-4 lg:mt-4">
                 <div class="aspect-w-1 aspect-h-1">
                     <img
-                    alt="Mobile Phone Stand"
                     class="object-cover rounded-xl"
-                    src="https://images.unsplash.com/photo-1627844541143-a561a1a9b72a"
+                    src="/assets/proj6-2.jpeg"
                     />
                 </div>
 
                 <div class="aspect-w-1 aspect-h-1">
                     <img
-                    alt="Mobile Phone Stand"
                     class="object-cover rounded-xl"
-                    src="https://images.unsplash.com/photo-1627844541143-a561a1a9b72a"
+                    src="/assets/proj6-3.jpeg"
                     />
                 </div>
 
                 <div class="aspect-w-1 aspect-h-1">
                     <img
-                    alt="Mobile Phone Stand"
                     class="object-cover rounded-xl"
-                    src="https://images.unsplash.com/photo-1627844541143-a561a1a9b72a"
+                    src="/assets/proj6-4.jpeg"
                     />
                 </div>
 
                 <div class="aspect-w-1 aspect-h-1">
                     <img
-                    alt="Mobile Phone Stand"
                     class="object-cover rounded-xl"
-                    src="https://images.unsplash.com/photo-1627844541143-a561a1a9b72a"
+                    src="/assets/proj6-5.jpeg"
                     />
                 </div>
                 </div>
@@ -58,7 +53,7 @@ function ProjectDetails6() {
                 <div class="flex justify-between mt-8">
                 <div class="max-w-[35ch]">
                     <h1 class="text-2xl font-bold">
-                        Chatbrett med django
+                        Utplassering hos Bouvet
                     </h1>
                 </div>
 
@@ -67,7 +62,7 @@ function ProjectDetails6() {
                     <div>
                     <div class="prose max-w-none group-open:hidden">
                         <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa veniam dicta beatae eos ex error culpa delectus rem tenetur, architecto quam nesciunt, dolor veritatis nisi minus inventore, rerum at recusandae?
+                            For den siste oppgavå mi i år så blei eg utplassert hos Bouvet for å lære litt om korleis arbeidslivet faktisk er
                         </p>
                     </div>
 
@@ -75,11 +70,14 @@ function ProjectDetails6() {
 
                 <div class="pb-6 prose max-w-none">
                     <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa veniam dicta beatae eos ex error culpa delectus rem tenetur, architecto quam nesciunt, dolor veritatis nisi minus inventore, rerum at recusandae?
+                        Hos Bouvet så blei eg satt på HTMS prosjektet der me jobber med å tracke folk og kjøretøy for å unngå ulykker og skader
                     </p>
 
                     <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat nam sapiente nobis ea veritatis error consequatur nisi exercitationem iure laudantium culpa, animi temporibus non! Maxime et quisquam amet. A, deserunt!
+                        Måten det funker på er at det er nokon locators i taket som registrerer trackers som personer og kjøretøy denne dataen kan videre bli sendt til ein server
+                    </p>
+                    <p>
+                        min jobb var å sette opp et testing miljø på kontoret til Bouvet, som kan brukes til å teste locators og trackere
                     </p>
                 </div>
 

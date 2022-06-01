@@ -13,42 +13,37 @@ function ProjectDetails5() {
             <div class="grid grid-cols-2 gap-4 md:grid-cols-1">
                 <div class="aspect-w-1 aspect-h-1">
                 <img
-                    alt="Mobile Phone Stand"
                     class="object-cover rounded-xl"
-                    src="https://images.unsplash.com/photo-1627844541143-a561a1a9b72a"
+                    src="/assets/proj5-1.png"
                 />
                 </div>
 
                 <div class="grid grid-cols-2 gap-4 lg:mt-4">
                 <div class="aspect-w-1 aspect-h-1">
                     <img
-                    alt="Mobile Phone Stand"
                     class="object-cover rounded-xl"
-                    src="https://images.unsplash.com/photo-1627844541143-a561a1a9b72a"
+                    src="/assets/proj5-2.png"
                     />
                 </div>
 
                 <div class="aspect-w-1 aspect-h-1">
                     <img
-                    alt="Mobile Phone Stand"
                     class="object-cover rounded-xl"
-                    src="https://images.unsplash.com/photo-1627844541143-a561a1a9b72a"
+                    src="/assets/proj5-3.png"
                     />
                 </div>
 
                 <div class="aspect-w-1 aspect-h-1">
                     <img
-                    alt="Mobile Phone Stand"
                     class="object-cover rounded-xl"
-                    src="https://images.unsplash.com/photo-1627844541143-a561a1a9b72a"
+                    src="/assets/proj5-4.png"
                     />
                 </div>
 
                 <div class="aspect-w-1 aspect-h-1">
                     <img
-                    alt="Mobile Phone Stand"
                     class="object-cover rounded-xl"
-                    src="https://images.unsplash.com/photo-1627844541143-a561a1a9b72a"
+                    src="/assets/proj5-5.png"
                     />
                 </div>
                 </div>
@@ -58,7 +53,7 @@ function ProjectDetails5() {
                 <div class="flex justify-between mt-8">
                 <div class="max-w-[35ch]">
                     <h1 class="text-2xl font-bold">
-                        Chatbrett med django
+                        Cybersikkerhet og penetesting
                     </h1>
                 </div>
 
@@ -67,7 +62,7 @@ function ProjectDetails5() {
                     <div>
                     <div class="prose max-w-none group-open:hidden">
                         <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa veniam dicta beatae eos ex error culpa delectus rem tenetur, architecto quam nesciunt, dolor veritatis nisi minus inventore, rerum at recusandae?
+                            for cybersikkerhet og penetesting prosjektet mitt så bestemte eg meg for å først laste ner Kali på ein raspberry pi så eg kunne bruke nokon verktøy som kommer med Kali
                         </p>
                     </div>
 
@@ -75,11 +70,11 @@ function ProjectDetails5() {
 
                 <div class="pb-6 prose max-w-none">
                     <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa veniam dicta beatae eos ex error culpa delectus rem tenetur, architecto quam nesciunt, dolor veritatis nisi minus inventore, rerum at recusandae?
+                        Eg fokuserte for det meste på nettsider og korleis man kan hacke/beskytte dei, eg fekk i oppdrag å hacke iktfag.com, eg klarte det ikkje men kom langt å lærte møkje, eg har lert meg hacking metoder på nettet som sql injections, xss, hvordan man "walker" ei nettside og masse Linux
                     </p>
 
                     <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat nam sapiente nobis ea veritatis error consequatur nisi exercitationem iure laudantium culpa, animi temporibus non! Maxime et quisquam amet. A, deserunt!
+                        eg har lert meg korleis eg bruker verktøy som wp-scan fuzzer sqlinject og reverse shell
                     </p>
                 </div>
 
