@@ -9,7 +9,7 @@ export default {
   header: {
     img:
       '/assets/snorre.png',
-    text: ['Hallo!', "Ege er Snorre Søvold.", 'Eg er '],
+    text: ['Hallo!', "Eg er Snorre Søvold.", 'Eg er '],
     typical: [
       'IT elev. 💻',
       2000,
@@ -86,5 +86,5 @@ export default {
         content: "I den tredje oppgavå mi så jobbet eg hos Bouvet for å finne ut kossen det er å faktisk jobbe hos ein IT-bedrift"
       }
     ]
-  }
+  },
 };
